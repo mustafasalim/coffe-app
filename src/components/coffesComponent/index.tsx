@@ -18,12 +18,12 @@ function Coffe() {
     }
 
     fetchData()
-  }, []) // The empty dependency array ensures that this effect runs once, similar to componentDidMount
+  }, [])
 
   console.log(coffeData)
 
   return (
-    <div className="w-[1300px] gap-y-20 justify-center gap-x-10 mt-20 mb-20 flex items-center flex-wrap">
+    <div className="lg:w-[1300px] sm:w-[600px] gap-y-20 justify-center gap-x-10 mt-20 mb-20 flex items-center flex-wrap">
       {coffeData.map((coffe: any) => (
         <div
           key={coffe.id}

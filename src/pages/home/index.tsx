@@ -8,11 +8,11 @@ function Home() {
         src="./images/bg-cafe.jpg"
         alt=""
       />
-      <div className="h-screen w-full flex items-center justify-center">
-        <div className="absolute mt-40 top-0 w-[1550px] shadow-md rounded-3xl bg-[#1B1D1F] z-10">
+      <div className="h-screen s w-full flex items-center justify-center">
+        <div className="absolute sm:w-[600px]  mt-40 top-0 lg:w-[1550px] shadow-md rounded-3xl bg-[#1B1D1F] z-10">
           <div className="w-full flex items-center justify-center">
             <div className="w-[1300px] relative h-[300px] flex items-start justify-center">
-              <div className="absolute mt-10 right-[400px]">
+              <div className="absolute mt-10 sm:right-0 right-[400px]">
                 <svg
                   width="257"
                   height="153"
@@ -34,9 +34,9 @@ function Home() {
                   Our Collection
                 </div>
                 <div className="text-[#6F757C] tracking-wide text-center font-semibold w-[500px]">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Laudantium eveniet praesentium adipisci, accusamus, voluptatum
-                  reprehenderit consequuntur! Fugit, doloribus? reprehenderit
+                  Introducing our Coffe Collection, a selection of unique
+                  coffees from different roast types and origins, ezpertly
+                  roasted in small batches and shipped fresh weekly
                 </div>
                 <div className="flex items-center justify-center gap-x-6 mt-5">
                   <Button
