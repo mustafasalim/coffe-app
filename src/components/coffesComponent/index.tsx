@@ -23,14 +23,14 @@ function Coffe() {
   console.log(coffeData)
 
   return (
-    <div className="lg:w-[1300px] sm:w-[600px] gap-y-20 justify-center gap-x-10 mt-20 mb-20 flex items-center flex-wrap">
+    <div className="lg:w-[1300px] max-[640px]:w-[320px] gap-y-20 justify-center gap-x-10 mt-20 mb-20 flex items-center flex-wrap">
       {coffeData.map((coffe: any) => (
         <div
           key={coffe.id}
           className="w-[350px]"
         >
           <div
-            className={`w-[350px] overflow-hidden rounded-xl relative bg-center bg-cover bg-no-repeat bg-black h-56 bg-[url('${coffe.image}')]`}
+            className={`lg:w-[350px]  overflow-hidden rounded-xl relative bg-center bg-cover bg-no-repeat bg-black h-56 bg-[url('${coffe.image}')]`}
           >
             <div className="absolute top-0 left-0 m-3">
               {coffe.popular === true ? (

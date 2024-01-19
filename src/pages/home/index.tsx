@@ -9,10 +9,10 @@ function Home() {
         alt=""
       />
       <div className="h-screen s w-full flex items-center justify-center">
-        <div className="absolute sm:w-[600px]  mt-40 top-0 lg:w-[1550px] shadow-md rounded-3xl bg-[#1B1D1F] z-10">
+        <div className="absolute max-[640px]:w-[350px] max-[640px]:mt-10  mt-40 top-0 lg:w-[1550px] shadow-md rounded-3xl bg-[#1B1D1F] z-10">
           <div className="w-full flex items-center justify-center">
             <div className="w-[1300px] relative h-[300px] flex items-start justify-center">
-              <div className="absolute mt-10 sm:right-0 right-[400px]">
+              <div className="absolute mt-10 max-[640px]:right-10 lg:right-[400px]">
                 <svg
                   width="257"
                   height="153"
@@ -33,7 +33,7 @@ function Home() {
                 <div className="text-[40px] font-bold text-[#FEF7EE]">
                   Our Collection
                 </div>
-                <div className="text-[#6F757C] tracking-wide text-center font-semibold w-[500px]">
+                <div className="text-[#6F757C] max-[640px]:w-[330px] tracking-wide text-center font-semibold w-[500px]">
                   Introducing our Coffe Collection, a selection of unique
                   coffees from different roast types and origins, ezpertly
                   roasted in small batches and shipped fresh weekly
